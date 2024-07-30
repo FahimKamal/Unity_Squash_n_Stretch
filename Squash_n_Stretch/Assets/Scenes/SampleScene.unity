@@ -258,8 +258,8 @@ MonoBehaviour:
   transformToAffect: {fileID: 0}
   axisToAffect: 2
   animationDuration: 0.25
-  canBeOverwritten: 1
-  playOnStart: 1
+  canBeOverwritten: 0
+  playOnStart: 0
   playsEveryTime: 1
   chanceToPlay: 100
   initialScale: 1
@@ -299,7 +299,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  looping: 1
+  looping: 0
   loopingDelay: 0.5
 --- !u!1001 &168617053
 PrefabInstance:
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   notes: 
   transformToAffect: {fileID: 1106136868}
   axisToAffect: 2
-  animationDuration: 0.25
+  animationDuration: 0.3
   canBeOverWritten: 1
   playOnStart: 0
   playsEveryTime: 1
