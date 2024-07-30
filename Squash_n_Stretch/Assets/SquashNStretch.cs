@@ -132,6 +132,7 @@ public class SquashNStretch : MonoBehaviour
 
             while (elapsedTime < animationDuration)
             {
+                Debug.Log(elapsedTime + " / " + animationDuration);
                 elapsedTime += Time.deltaTime;
 
                 float curvePosition;
@@ -169,7 +170,7 @@ public class SquashNStretch : MonoBehaviour
                 
                 transformToAffect.localScale = modifiedScale;
                 
-                yield return null;
+                yield return new WaitForSeconds(0.03f);
             }
 
             if (resetToInitialScaleAfterAnimation)
